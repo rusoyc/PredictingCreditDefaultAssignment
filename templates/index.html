@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2>[RUS] Individual Assignment, 090422</h2>
+        <form action="http://127.0.0.1:5000" method="post">
+            <p>Please enter the income:</p>
+            <p><input type="number" name="income"></p>
+            <p>Please enter the age:</p>
+            <p><input type="number" name="age"></p>
+            <p>Please enter the loan amount:</p>
+            <p><input type="number" name="loan"></p>
+            <p><input type="submit" value="Enter"></p>
+        </form>
+        <p>The results predicted by CART is: {{result1}}</p>
+        <p>The results predicted by Random Forest is: {{result2}}</p>
+        <p>The results predicted by XGBoost is: {{result3}}</p>
+    </body>
+</html>
